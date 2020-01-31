@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		580E7D7723E49B5300284966 /* ConstraintsAnimation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 580E7D7623E49B5300284966 /* ConstraintsAnimation.storyboard */; };
 		584CF4C123E47E2500B60FE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584CF4C023E47E2500B60FE9 /* AppDelegate.swift */; };
 		584CF4C323E47E2500B60FE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584CF4C223E47E2500B60FE9 /* SceneDelegate.swift */; };
 		584CF4CA23E47E2600B60FE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 584CF4C923E47E2600B60FE9 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 		584CF4E323E47F9F00B60FE9 /* AnimationsTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584CF4E223E47F9F00B60FE9 /* AnimationsTabController.swift */; };
 		587FF78123E4807F00FFC33B /* SampleAnimationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587FF78023E4807F00FFC33B /* SampleAnimationsController.swift */; };
 		587FF78323E480A700FFC33B /* ConstraintsAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587FF78223E480A700FFC33B /* ConstraintsAnimationController.swift */; };
+		587FF78523E486C600FFC33B /* SampleAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587FF78423E486C600FFC33B /* SampleAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		580E7D7623E49B5300284966 /* ConstraintsAnimation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ConstraintsAnimation.storyboard; sourceTree = "<group>"; };
 		584CF4BD23E47E2500B60FE9 /* UIKIt_Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKIt_Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		584CF4C023E47E2500B60FE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		584CF4C223E47E2500B60FE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +43,7 @@
 		584CF4E223E47F9F00B60FE9 /* AnimationsTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsTabController.swift; sourceTree = "<group>"; };
 		587FF78023E4807F00FFC33B /* SampleAnimationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAnimationsController.swift; sourceTree = "<group>"; };
 		587FF78223E480A700FFC33B /* ConstraintsAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintsAnimationController.swift; sourceTree = "<group>"; };
+		587FF78423E486C600FFC33B /* SampleAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 			isa = PBXGroup;
 			children = (
 				587FF78023E4807F00FFC33B /* SampleAnimationsController.swift */,
+				580E7D7623E49B5300284966 /* ConstraintsAnimation.storyboard */,
+				587FF78423E486C600FFC33B /* SampleAnimationView.swift */,
 				584CF4E223E47F9F00B60FE9 /* AnimationsTabController.swift */,
 				587FF78223E480A700FFC33B /* ConstraintsAnimationController.swift */,
 			);
@@ -193,6 +199,7 @@
 			files = (
 				584CF4CD23E47E2600B60FE9 /* LaunchScreen.storyboard in Resources */,
 				584CF4CA23E47E2600B60FE9 /* Assets.xcassets in Resources */,
+				580E7D7723E49B5300284966 /* ConstraintsAnimation.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				587FF78123E4807F00FFC33B /* SampleAnimationsController.swift in Sources */,
+				587FF78523E486C600FFC33B /* SampleAnimationView.swift in Sources */,
 				584CF4C123E47E2500B60FE9 /* AppDelegate.swift in Sources */,
 				584CF4E323E47F9F00B60FE9 /* AnimationsTabController.swift in Sources */,
 				584CF4C323E47E2500B60FE9 /* SceneDelegate.swift in Sources */,
